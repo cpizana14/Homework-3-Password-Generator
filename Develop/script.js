@@ -9,22 +9,22 @@ var howMany = prompt("how many charcters would you like? Must be between 8-128")
 
   if (howMany >= 8 && howMany <= 128) {
 
-    var upper = confirm("would you like uppercase letters");
+    var upper = confirm("would you like uppercase letters?");
     if (upper === true) {
         password += uchar;
     }
 
-    var lower = confirm("would you like lowercase letters");
+    var lower = confirm("would you like lowercase letters?");
     if (lower === true) {
         password += char;
     }
 
-    var numbers = confirm("would you like numbers");
+    var numbers = confirm("would you like numbers?");
     if (numbers === true) {
         password += num;
     }
 
-    var special = confirm("would you like special characters");
+    var special = confirm("would you like special characters?");
     if (special === true) {
         password += schar;
     }
