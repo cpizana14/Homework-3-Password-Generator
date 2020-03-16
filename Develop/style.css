@@ -1,0 +1,24 @@
+header{ text-align: center;
+  font-size: 60px;
+
+}
+
+.flex-wrapper {
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+ h1{
+  border-bottom-style: solid;
+  border-color: red;
+  color: black;
+
+}
+
+body{
+
+     background-position: center center;
+     background-size: cover;}
+
+
