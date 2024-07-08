@@ -1,4 +1,4 @@
-# Homework-3-Password-Generator
+#Password-Generator
 Password Generator
 
 This page will generate a password out of different numbers, letter, and special characters.
